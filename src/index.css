@@ -1,5 +1,6 @@
-body {
-  margin: 0;
+body{
+  padding: 0 !important;
+  margin: 0 !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,165 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.col-md-2 {
+  padding: 0;
+}
+
+.nav-item svg {
+  font-size: 25px;
+  margin-right: 27px;
+}
+
+
+.main {
+  background: #f2f2f2;
+}
+
+.sidebar {
+  background:#1e1d52;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.nav-link {
+  color: white;
+}
+.logo__header {
+  margin-bottom: 1.70rem;
+}
+.logo__text {
+  color: white;
+  margin-top: 1rem;
+  font-size: 24px;
+}
+
+.logo__text span {
+margin:20px;
+font-size: 42px;
+
+}
+
+li.nav-item a:hover {
+  background-color: rgb(17 18 51);
+  color: white;
+} 
+
+.manage__by a:hover {
+  background-color: rgb(17 18 51);
+  color: white;
+  width: 100%;
+}
+
+li.nav-item {
+  margin-bottom: 1rem;
+  margin-left: 11px;
+}
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.col-md-6 svg {
+  font-size: 100px;
+  
+  justify-content: center;
+  
+}
+
+.text {
+  margin: 4px;
+  font-family: cursive;
+}
+
+.card__price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navicon {
+  margin-right: 3px;
+  /* font */
+}
+
+.chartoverview {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.card-body text {
+  font-family: cursive;
+  font-size: large;
+}
+
+.chart text{
+  font-family: cursive;
+  font-size: large;
+}
+
+.card, .table {
+  border-radius: 10px;
+}
+
+.table {
+  background: white;
+}
+
+.btn-group .btn.btn-secondary {
+  color: #000 !important;
+  background-color: #6facdd !important;
+}
+
+.tableoverview {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: white;
+}
+
+.tablewrap {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+ 
+.input-group {
+   margin-right: 5px;
+}
+
+.chartoverview .btn-group, .btn-group-vertical {
+  display: inline;
+}
+
+.card__percent__even span {
+  color: green;
+}
+.card__percent__odd span {
+  color: red;
+}
+
+.manage__by {
+  position: fixed;
+  bottom: 0;
+  font-size: 25px;
+  margin-right: 27px;
+}
+
+a.nav-link.nav__profile {
+  font-size: 20px;
+}
+
+.nav__profile svg {
+  font-size: 29px;
+  vertical-align: text-bottom;
+  margin-right: 4px;
+}
+.user__table {
+  background: white;
+  margin: auto;
+  border-radius: 10px;
 }
